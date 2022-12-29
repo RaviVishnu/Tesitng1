@@ -23,7 +23,10 @@ public class Insta {
 		//Thread.sleep(4000);
 	
 		driver.findElement(By.name("username")).sendKeys("12345678");
-		
+//		driver.findElement(By.name("username")).sendKeys("12345678");
+//		driver.findElement(By.name("username")).sendKeys("12345678");
+//		driver.findElement(By.name("username")).sendKeys("12345678");
+//		driver.findElement(By.name("username")).sendKeys("12345678");
 	}
 
 }
