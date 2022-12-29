@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Insta {
@@ -20,9 +21,13 @@ public class Insta {
 		
 		driver.get("https://www.instagram.com/accounts/login/");
 
-		//Thread.sleep(4000);
-	
-		driver.findElement(By.name("username")).sendKeys("12345678");
+		Thread.sleep(4000);
+		//WebElement findElement = driver.findElement(By.xpath(""));
+		//WebElement findElement = driver.findElement(By.xpath(""));
+		//WebElement findElement = driver.findElement(By.xpath(""));
+		//WebElement findElement = driver.findElement(By.xpath(""));
+		//WebElement findElement = driver.findElement(By.xpath(""));
+		driver.findElement(By.name("username123")).sendKeys("87654321");
 		
 	}
 
